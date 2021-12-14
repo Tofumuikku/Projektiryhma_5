@@ -1,0 +1,1 @@
+Moi kaikille t. Kristian
