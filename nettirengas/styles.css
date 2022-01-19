@@ -46,3 +46,11 @@
         height: 100px;
         width: 100px;
     }
+
+    .products img{
+        display: inline-block;
+        white-space: nowrap;
+        height: inherit;
+        width: inherit;
+
+    }
