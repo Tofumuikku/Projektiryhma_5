@@ -10,7 +10,14 @@
     <body>
     <div class="box">
         <div class="header">
-            <button class="menu" type="button">Testi</button>
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="bars"></i>
+            </a>
             <span class="title">Nettirengas.ru</span>
             <input class="search" type="search" placeholder="Hae..." name="search">
         </div>
@@ -49,5 +56,17 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } 
+    </script>
+
     </body>
 </html>
