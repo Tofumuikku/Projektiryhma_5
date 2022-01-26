@@ -1,60 +1,60 @@
-.header{
+.header {
     background-color: #6699cc;
     border: 2px black solid;
     text-align: center;
 }
 
-.search{
+.search {
     float: right;
 }
 
-.menu{
+.menu {
     float: left;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.searchbox {  
-    float: left;  
+.searchbox {
+    float: left;
     border: 2px;
     border-color: black;
     border-style: solid;
     background-color: #6699cc;
-    }  
+}
 
-    input[type=text] {  
-    padding: 2px;  
-    margin-top: 2px;  
-    font-size: 17px;  
+input[type=text] {
+    padding: 2px;
+    margin-top: 2px;
+    font-size: 17px;
     border: 1px;
     border-color: black;
-    border-style: solid;  
-    }  
+    border-style: solid;
+}
 
-    .searchbox button {  
-    padding: 8px;  
-    margin-top: 10px;  
-    margin-left: 10px;  
-    background: orange;  
-    font-size: 20px;  
-    border: none;  
-    cursor: pointer;  
-    } 
+.searchbox button {
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: orange;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
 
-    .searchbox button:hover {  
-    background: blue;  
-    }  
+.searchbox button:hover {
+    background: blue;
+}
 
-    .box .products{
-        border: 2px black solid;
-        background-color: #AFEEEE;
-        white-space: nowrap;
-        flex: 0 1 auto;
-        height: 100%;
-        width: 100%;
-    }
+.box .products {
+    border: 2px black solid;
+    background-color: #AFEEEE;
+    white-space: nowrap;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 100%;
+}
 
     .products span{
         display: inline-block;
@@ -70,16 +70,20 @@
         white-space: nowrap;
         height: 100%;
         width: 100%;
-
     }
 
-    .box {
-        display: flex;
-        flex-flow: column;
-        height: 100%;
-    }
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
 
-    .box .content {
-        border: 2px black solid;
-        flex: 0 1 auto;
-    }
+.box .content {
+    border: 2px black solid;
+    flex: 0 1 auto;
+}
+
+.sisalto {
+    text-align: center;
+    margin-left: 25%;
+}
