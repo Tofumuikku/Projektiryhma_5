@@ -1,6 +1,5 @@
 .header {
     background-color: #6699cc;
-    overflow: hidden;
     border: 2px black solid;
     text-align: center;
 }
@@ -57,21 +56,21 @@ input[type=text] {
     width: 100%;
 }
 
-.box .products span {
-    display: inline-block;
-    border: 1px black solid;
-    white-space: nowrap;
-    height: 100px;
-    width: 100px;
-    flex: 0 1 auto;
-}
+    .products span{
+        display: inline-block;
+        border: 1px black solid;
+        white-space: nowrap;
+        height: 200px;
+        width: 213.6px;
+        flex: 0 1 auto;
+    }
 
-.products img {
-    display: inline-block;
-    white-space: nowrap;
-    height: inherit;
-    width: inherit;
-}
+    .products img{
+        display: inline-block;
+        white-space: nowrap;
+        height: 100%;
+        width: 100%;
+    }
 
 .box {
     display: flex;
