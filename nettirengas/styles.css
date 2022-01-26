@@ -48,18 +48,22 @@
     background: blue;  
     }  
 
-    .products{
+    .box .products{
         border: 2px black solid;
         background-color: #AFEEEE;
         white-space: nowrap;
+        flex: 0 1 auto;
+        height: 100%;
+        width: 100%;
     }
 
-    .products span{
+    .box .products span{
         display: inline-block;
         border: 1px black solid;
         white-space: nowrap;
         height: 100px;
         width: 100px;
+        flex: 0 1 auto;
     }
 
     .products img{
@@ -68,4 +72,15 @@
         height: inherit;
         width: inherit;
 
+    }
+
+    .box {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+    }
+
+    .box .content {
+        border: 2px black solid;
+        flex: 0 1 auto;
     }
