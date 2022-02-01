@@ -12,39 +12,103 @@
     float: left;
 }
 
-.header #myLinks {
-    display: none;
-  }
-
-  .header a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-
-  .header a.icon {
-    background: black;
-    display: block;
-    float: left;
-  }
-
-  .header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-.container {
-    display: flex;
+.navbar {
+    flex-flow: column;
+    text-align: center;
 }
 
-.searchbox {
+.navbar .content {
+    border: 2px black solid;
+    flex: 0 1 auto;
+}
+
+.sidebar{
+    float: left;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  .container{
+    display:inline-flex;
+    flex-wrap:wrap;
+    border:1px solid black;
+  }
+  .flex-direction{
+    flex-direction:row;
+  }
+  .div1{
+    border-right:1px solid black;
+    background-color:#727272;
+    width:250px;
+    height:250px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
+
+  .div1 img{
+      height: 100%;
+      width: auto;
+  }
+  
+  .div1 span{
+    font-size:16px;
+      font-weight:bold;
+      display: block;
+      line-height: 132px;
+      text-align: center;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .flex-direction{
+    flex-direction:column;
+    }
+  .div1{
+    width:202px;
+    height:131px;
+    border-right:none;
+    border-bottom:1px solid black;
+    }
+  
+  }
+
+/*.searchbox {
     float: left;
     border: 2px;
     border-color: black;
@@ -73,43 +137,8 @@ input[type=text] {
 
 .searchbox button:hover {
     background: blue;
-}
+}*/
 
-.box .products {
-    border: 2px black solid;
-    background-color: #AFEEEE;
-    white-space: nowrap;
-    flex: 0 1 auto;
-    height: 100%;
-    width: 100%;
-}
-
-    .products span{
-        display: inline-block;
-        border: 1px black solid;
-        white-space: nowrap;
-        height: 200px;
-        width: 213.6px;
-        flex: 0 1 auto;
-    }
-
-    .products img{
-        display: inline-block;
-        white-space: nowrap;
-        height: 100%;
-        width: 100%;
-    }
-
-.box {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-}
-
-.box .content {
-    border: 2px black solid;
-    flex: 0 1 auto;
-}
 
 .sisalto {
     text-align: center;
