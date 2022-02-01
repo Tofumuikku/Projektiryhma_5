@@ -1,27 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"> 
-        <title>Nettirengas.ru</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nettirengas.ru - Renkaat ja vanteet kätevästi ja nopeasti verkosta</title>
         <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
         <link rel="manifest" href="img/site.webmanifest">
     </head>
     <body>
-    <div class="box">
-        <div class="header">
-            <div id="myLinks">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="bars"></i>
-            </a>
-            <span class="title">Nettirengas.ru</span>
+    <div class="navbar">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          <span class="sidebar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <p class="title" style="display:inline">Nettirengas.ru</p>
             <input class="search" type="search" placeholder="Hae..." name="search">
         </div>
-        <div class="container">
+    </div>
+    <!---
             <div class="searchbox">
                 <form>
                     <input type="search" placeholder="Hae..." name="search"><br><br>
@@ -31,41 +32,46 @@
                     <input type="search" placeholder="Hae..." name="search"><br><br>
                     <button type="Submit">Lähetä</button>
                 </form>
+            </div> -->
+            <div class="container flex-direction">
+                <div class="div1">
+                  <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                  <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                    <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                    <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                    <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                    <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                    <span><img src="img/placeholder.png"></span>
+                </div>
+                <div class="div1">
+                    <span><img src="img/placeholder.png"></span>
+                </div>
             </div>
-            <div class="products">
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span><br><br>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span><br><br>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span><br><br>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span>
-                <span><img class="placeholder" src="img/placeholder.png"></span><br><br>
-            </div>
-        </div>
-    </div>
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        } 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
     </script>
 
     </body>
