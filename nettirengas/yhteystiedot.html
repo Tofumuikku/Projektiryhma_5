@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Nettirengas.ru</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+</head>
+
+<body style="background-color: #AFEEEE;">
+    <div class="header">
+        <div class="navbar">
+            <button class="sidebar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="yhteystiedot.html">Contact</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">About us
+
+            </a>
+          </div>
+            <p class="title" style="display:inline">Nettirengas.ru</p>
+            <input class="search" type="search" placeholder="Hae..." name="search">
+        </div>
+    </div>
+    <div class="container">
+        <div class="sisalto">
+            <h1 style="font-size: 300%">YHTEYSTIEDOT</h1>
+            <p>Yhteydenottopyyntö <br>
+              Odotettu vastausaika on noin 5 - 15 arkipäivää.
+              <form>
+                <label for="email">Sähköpostiosoite:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <input type="submit" value="Lähetä Yhteydenottopyyntö">
+              </form></p>
+            <br>
+            <p>
+              Yhteystietomme:<br>
+              <br>
+              <b>Toimitusjohtaja</b><br>
+              Jari Tranberg<br>
+              jaritranberg@nettirengas.ru<br>
+              +700 000 0000<br>
+
+              <b>Asiakaspalveluvastaava</b><br>
+              Janne Aarnio<br>
+              janneaarnio@nettirengas.ru<br>
+              +700 000 0001
+
+
+          
+
+            </p>  
+           
+
+                </p>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+          document.body.style.backgroundColor = "white";
+        }
+            </script>
+
+</body>
+
+</html>
