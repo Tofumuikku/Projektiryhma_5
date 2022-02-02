@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     background-color: #6699cc;
     border: 2px black solid;
@@ -22,7 +26,7 @@
     flex: 0 1 auto;
 }
 
-.sidebar{
+.sidebar {
     float: left;
 }
 
@@ -37,80 +41,82 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  #main {
+}
+
+#main {
     transition: margin-left .5s;
     padding: 16px;
-  }
+}
 
-  .container{
-    display:inline-flex;
-    flex-wrap:wrap;
-    border:1px solid black;
-  }
-  .flex-direction{
-    flex-direction:row;
-  }
-  .div1{
-    border-right:1px solid black;
-    background-color:#727272;
-    width:250px;
-    height:250px;
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+.div1 {
+    border-right: 1px solid black;
+    background-color: #727272;
+    width: 250px;
+    height: 250px;
     margin-bottom: 50px;
     margin-left: 50px;
-  }
+}
 
-  .div1 img{
-      height: 100%;
-      width: auto;
-  }
-  
-  .div1 span{
-    font-size:16px;
-      font-weight:bold;
-      display: block;
-      line-height: 132px;
-      text-align: center;
-  }
-  
-  @media screen and (max-width: 500px) {
-    .flex-direction{
-    flex-direction:column;
-    }
-  .div1{
-    width:202px;
-    height:131px;
-    border-right:none;
-    border-bottom:1px solid black;
-    }
-  
-  }
+.div1 img {
+    height: 100%;
+    width: auto;
+}
 
-  :focus {
-    outline: 3px solid red;   
-  }
+.div1 span {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    line-height: 132px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-direction {
+        flex-direction: column;
+    }
+    .div1 {
+        width: 202px;
+        height: 131px;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}
+
+ :focus {
+    outline: 3px solid red;
+}
+
 
 /*.searchbox {
     float: left;
@@ -142,7 +148,6 @@ input[type=text] {
 .searchbox button:hover {
     background: blue;
 }*/
-
 
 .sisalto {
     text-align: center;
