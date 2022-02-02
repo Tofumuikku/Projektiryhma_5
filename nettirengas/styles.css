@@ -67,6 +67,7 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+<<<<<<< HEAD
 }
 
 .container {
@@ -84,6 +85,21 @@ body {
     background-color: #727272;
     width: 250px;
     height: 250px;
+=======
+  }
+
+  .container{
+    border:1px solid black;
+  }
+  .flex-direction{
+    flex-direction:row;
+  }
+  .div1{
+    border-right:1px solid black;
+    background-color:#727272;
+    width:250px;
+    height:250px;
+>>>>>>> e8e961ec0dbfaebfd1c72aafe6d24b43154ac974
     margin-bottom: 50px;
     margin-left: 50px;
 }
