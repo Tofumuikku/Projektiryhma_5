@@ -10,6 +10,7 @@
 </head>
 
 <body style="background-color: #AFEEEE;">
+  <div id="main">
     <div class="header">
         <div class="navbar">
             <button class="sidebar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
@@ -21,7 +22,7 @@
             <a href="yhteystiedot.html">Contact</a>
           </div>
             <p class="title" style="display:inline">Nettirengas.ru</p>
-            <input class="search" type="search" placeholder="Hae..." name="search">
+            <img class="logo" src="img/LogoV5.png">
         </div>
     </div>
     <div class="container">
@@ -57,18 +58,17 @@
                 </p>
         </div>
     </div>
+    </div>
 
     <script>
         function openNav() {
           document.getElementById("mySidenav").style.width = "250px";
           document.getElementById("main").style.marginLeft = "250px";
-          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
         }
         
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
           document.getElementById("main").style.marginLeft= "0";
-          document.body.style.backgroundColor = "white";
         }
             </script>
 

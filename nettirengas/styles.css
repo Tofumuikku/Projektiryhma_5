@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #AFEEEE;
 }
 
 .logo{
@@ -43,14 +44,16 @@ body {
 .sidenav {
     height: 100%;
     width: 0;
-    position: fixed;
-    z-index: 1;
+    position: absolute;
+    display: block;
+    z-index: 0;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    
 }
 
 .sidenav a {
@@ -81,6 +84,11 @@ body {
 
 .container {
     display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.container2 {
     flex-wrap: wrap;
     border: 1px solid black;
 }
