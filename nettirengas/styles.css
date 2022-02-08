@@ -2,6 +2,16 @@ body {
     margin: 0;
 }
 
+.logo{
+    width: 4%;
+    Height: auto;
+}
+
+.title{
+    position: relative;
+    bottom: 20px;
+}
+
 .header {
     background-color: #6699cc;
     border: 2px black solid;
