@@ -1,6 +1,10 @@
 body {
     margin: 0;
     background-color: #AFEEEE;
+    background-image: url("img/LogoV5.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .logo{
