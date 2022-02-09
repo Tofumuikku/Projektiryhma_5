@@ -134,6 +134,54 @@ body {
     text-align: center;
 }
 
+.div2{
+    position: absolute;
+    display: inline-block;
+    margin-left: 50px;
+    width: 45%;
+    height: auto;
+    background-color: rgba(238,238,238,0.6);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.div2 h4{
+    font-size: 30px;
+    text-align: left;
+}
+
+.div2 p{
+    overflow-wrap:break-word;
+    font-weight: bold;
+}
+
+.tuotekuva img{
+    border:0px;
+    margin:0px;
+    float:left;
+    width: 50%;
+    height: auto;
+}
+
+.div2 button{
+    background: #FF0000;
+    border: 0px;
+    font-family: 'Exo';
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    display: block;
+    padding: 10px 24px 10px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    max-width: 200px;
+}
 @media screen and (max-width: 500px) {
     .flex-direction {
         flex-direction: column;
@@ -150,37 +198,15 @@ body {
     outline: 3px solid red;
 }
 
-
-/*.searchbox {
+.tuotekuvaus {
+    width: 100%;
+    height: auto;
     float: left;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    background-color: #6699cc;
 }
 
-input[type=text] {
-    padding: 2px;
-    margin-top: 2px;
-    font-size: 17px;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
+.tuotekuvaus {
+    display: inline-block;
 }
-
-.searchbox button {
-    padding: 8px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background: orange;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.searchbox button:hover {
-    background: blue;
-}*/
 
 .sisalto {
     text-align: center;
