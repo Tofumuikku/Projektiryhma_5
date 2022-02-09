@@ -138,6 +138,7 @@ body {
     position: absolute;
     display: inline-block;
     margin-left: 50px;
+    margin-right: 20px;
     width: 45%;
     height: auto;
     background-color: rgba(238,238,238,0.6);
