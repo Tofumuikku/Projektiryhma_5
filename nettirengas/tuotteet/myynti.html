@@ -18,7 +18,6 @@
                 <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="../index.html">Front Page</a>
-                <a href="myynti.html">Create an advert</a>
                 <a href="../tietoameista.html">About Us</a>
                 <a href="../nainmyyt.html">How to sell</a>
                 <a href="../yhteystiedot.html">Contact</a>
@@ -27,24 +26,46 @@
         <img class="logo" src="../img/LogoV5.png">
     </div>
     </div>
-    <h1 style="font-size: 300%">Ilmoitus 00001</h1>
+    <h1 style="font-size: 300%">Myynti-ilmoitus</h1>
     <meta name="title" content="Welcome text">
     
-        <div class="tuotekuva">
-            <span><img src="../img/Miellyttava_kuva_5.png" alt="Myytävä tuote ID 0001"></span>
+        <div class="valinnat">
+            <form>
+                <select id="rengasmallit" class="choice">
+                    <option>Valitse rengasmalli...</option>
+                    <option>Henkilöauto</option>
+                    <option>Pakettiauto</option>
+                    <option>Kuorma-auto</option>
+                    <option>Moottoripyörä</option>
+                    <option>Traktori</option>
+                </select><br>
+                <select id="valmistaja" class="choice">
+                    <option>Valitse valmistaja...</option>
+                    <option>Continental</option>
+                    <option>Nokian Renkaat</option>
+                    <option>Michelin</option>
+                    <option>Sunfull</option>
+                    <option>Kumho</option>
+                </select><br>
+                <select id="vuodenaika" class="choice">
+                    <option>Valitse vuodenaika...</option>
+                    <option>Kesärenkaat</option>
+                    <option>Kitkarenkaat</option>
+                    <option>Nastarenkaat</option>
+                </select><br>
+                <select id="rengasmallit" class="choice">
+                    <option>Valitse kunto...</option>
+                    <option>Erinomainen</option>
+                    <option>Hyvä</option>
+                    <option>Kohtalainen</option>
+                    <option>Huono</option>
+                    <option>Järkyttävä</option>
+                </select>
+            </form>
         </div>
         <div class="div2">
-            <h4 class="tuoteotsikko">Renkaan tiedot:</h4>
-            <p>Renkaan nimi: Continental 225/55R19</p>
-            <p>Rengasmalli: Henkilöauto </p>
-            <p>Valmistaja: Continental</p>
-            <p>Vuodenaika: Kesä</p>
-            <p>Kunto: Järkyttävä</p>
-            <p>Kuvaus: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-            <p>Kappalemäärä: 4</p>
-            <p>Hinta: 500€/kpl</p>
-            <p>Myyjä: Sergei</p>
-            <button id="addtocart" class="tuotelisays">Lisää ostoskoriin</button>
+            <textarea name="description" rows="10" cols="65">Kirjoita kuvaus tuotteellesi...</textarea>
+            <button id="addtocart" class="tuotelisays">Julkaise</button>
         </div>
 
     </div>

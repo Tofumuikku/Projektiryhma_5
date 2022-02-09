@@ -183,6 +183,22 @@ body {
     border-radius: 0px;
     max-width: 200px;
 }
+
+.valinnat{
+    border:0px;
+    margin:0px;
+    float:left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.choice{
+    margin-bottom:5%;
+    width:200px;
+    height:50px;
+}
+
+
 @media screen and (max-width: 500px) {
     .flex-direction {
         flex-direction: column;
