@@ -138,6 +138,33 @@ body {
     text-align: center;
 }
 
+.ilmoitukset {
+    position:relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: auto;
+    background-color: rgba(238,238,238,0.8);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.ilmoitus{
+    text-align:center;
+}
+
+.ilmoitus img{
+    
+    width: 200px;
+    height: 150px;
+    margin: 5px auto;
+}
+
+
 .div2{
     position: absolute;
     display: inline-block;
@@ -213,10 +240,6 @@ body {
         border-right: none;
         border-bottom: 1px solid black;
     }
-}
-
- :focus {
-    outline: 3px solid red;
 }
 
 .tuotekuvaus {
