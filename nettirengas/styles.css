@@ -166,11 +166,11 @@ body {
 
 
 .div2{
-    position: absolute;
+    position: relative;
     display: inline-block;
     margin-left: 50px;
     margin-right: 20px;
-    width: 45%;
+    width: auto;
     height: auto;
     background-color: rgba(238,238,238,0.6);
     box-sizing: border-box;
@@ -219,7 +219,7 @@ body {
     border:0px;
     margin:0px;
     float:left;
-    width: 20%;
+    width: auto;
     margin-left: 10%;
 }
 
